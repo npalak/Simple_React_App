@@ -1,38 +1,70 @@
-.App {
+
+.abcontainer{
+  margin:30px;
+  width:90%;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.checkboxContainer{
+  margin:10px;
+  width:96%;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.buttonContainer{
+  margin-left: 2px;
+  width:100%; 
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.textboxContainer{
+  margin:20px;
+  width:30%;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.button {
+  background-color:white; /* Green */
+  border: none; 
+  color: black; 
+  padding: 10px ;
+  width:30%; 
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.firstbutton{
+  box-shadow: 5px 10px 8px grey;
+}
+.secondbutton{
+  box-shadow: 5px 10px 8px rgb(39, 119, 223);
+}
+.thirdbutton{
+  box-shadow: 5px 10px 20px grey inset;
+}
+.forthbutton{
+  box-shadow: 10px 15px 30px grey inset;
+}
+span{
+  margin-left: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textclass{
+  border-radius: 12px;
+  box-shadow: 2px 5px 10px grey inset;
+  border-block-start-color:rgb(39, 119, 223);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titleclass{
+  margin-left:20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
